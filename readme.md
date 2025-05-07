@@ -63,7 +63,7 @@ laurea (286)
 ## 7. Da quanti dipartimenti è composta l'università? (12)
 
 - SELECT
-  COUNT(\*)
+  COUNT(\*) AS `numero_dipartimenti`
   FROM
   `db-university`.departments;
 
